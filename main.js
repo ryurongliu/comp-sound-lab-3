@@ -1,4 +1,4 @@
-document.body.style.zoom="175%";
+
 document.addEventListener("DOMContentLoaded", function (event) {
 
     //create audio context
