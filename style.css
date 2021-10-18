@@ -1,0 +1,164 @@
+#babblingbrook {
+    display: block;
+    width: 300px;
+    height: 30px;
+    padding: 50px;
+    font-size: 10px;
+    margin: auto;
+}
+
+.bbexplain {
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 10px;
+    position: center;
+}
+
+#spacer {
+    display: block;
+    width: 300px;
+    height: 15px;
+    padding: 10px;
+    font-size: 10px;
+    margin: auto;
+}
+
+
+#phone {
+    display: block;
+    width: 50%; 
+    height: 200px;
+    padding: 10px;
+    margin: auto;
+    font-size: 20px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.phonetitle{
+    display: block;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    position: center;
+}
+
+.phoneexplain {
+    display: block;
+    width: 300px;
+    height: 30px;
+    padding: 20px;
+    margin: auto;
+    font-size: 10px;
+    position: center;
+}
+
+.button {
+    background-color: #555555;
+    border: none; 
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: wavy;
+    display: block;
+    font-size: 10px;
+    width: 125px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.pickupbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
+    margin-left:25%;
+    margin-right:auto;
+    margin-top: 30px;
+}
+
+    .pickupbutton:hover {
+        background-color: #3e8e41
+    }
+
+    .pickupbutton:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+.hangupbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #f4511e;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
+    opacity: 1;
+    margin-right: 20%;
+    margin-left:8%;
+    margin-top: 30px;
+}
+
+    .hangupbutton:hover {
+        background-color: #960018;
+        opacity: 1;
+    }
+
+    .hangupbutton:active {
+        background-color: #960018;
+        opacity: 1;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+.phonebuttons {
+    display: block;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    margin: auto;
+    font-size: 10px;
+    position: center;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.leftimg {
+    display: inline-block;
+    margin-left: none;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.tlinewords {
+    font-size = 10px;
+    display: inline-block;
+    margin-left: 50%;
+    position:absolute;
+}
